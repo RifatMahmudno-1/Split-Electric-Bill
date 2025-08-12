@@ -1,0 +1,16 @@
+{
+	"name": "electricity-bill-calculation",
+	"private": true,
+	"type": "module",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "tsx watch index.ts",
+		"start": "tsx index.ts"
+	},
+	"dependencies": {
+		"@inquirer/prompts": "^7.8.1",
+		"@types/node": "^24.1.0",
+		"canvas": "^3.1.2",
+		"tsx": "^4.20.3"
+	}
+}
