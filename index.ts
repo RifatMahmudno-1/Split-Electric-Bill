@@ -111,20 +111,6 @@ function calculate(data: DataType) {
 	generateImage(lines, filename)
 }
 
-const sampleData: DataType = {
-	firstPerson: {
-		name: 'Alice',
-		previousUnit: 100.5,
-		currentUnit: 180.75
-	},
-	secondPerson: {
-		name: 'Bob',
-		previousUnit: 80.25,
-		currentUnit: 120.5
-	},
-	totalMoney: 850.0
-}
-
 ;(async () => {
 	const firstPersonName = await input({
 		message: "Enter first person's name:",
